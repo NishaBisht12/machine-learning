@@ -1,0 +1,30 @@
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+.venv-1/
+venv/
+*.egg-info/
+
+# --- Large data / model files (too big for GitHub, regenerate locally) ---
+*.h5
+*.keras
+*.npy
+*.csv
+dataset/
+ais_data/*.csv
+*.zst
+*.zip
+
+# --- Node / React ---
+node_modules/
+dist/
+.vite/
+
+# --- Editor / OS ---
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
